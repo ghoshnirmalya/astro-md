@@ -1,0 +1,19 @@
+{
+  "name": "@example/docs",
+  "version": "0.0.1",
+  "private": false,
+  "scripts": {
+    "start": "astro dev",
+    "build": "astro build"
+  },
+  "devDependencies": {
+    "@snowpack/plugin-postcss": "^1.4.3",
+    "astro": "^0.18.0-next.4",
+    "autoprefixer": "^10.3.1",
+    "postcss": "^8.3.5",
+    "tailwindcss": "^2.2.4"
+  },
+  "dependencies": {
+    "yarn": "^1.22.10"
+  }
+}
