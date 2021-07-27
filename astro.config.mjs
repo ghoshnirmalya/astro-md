@@ -13,6 +13,7 @@ export default {
       ["rehype-autolink-headings"],
       [("rehype-toc", { headings: ["h2", "h3"] })],
       ["rehype-add-classes", { "h1,h2,h3": "title" }],
+      ["rehype-plugin-image-native-lazy-loading"],
     ],
   },
 };

@@ -9,10 +9,12 @@
 .article img {
   @apply rounded-sm;
 }
-.article #table-of-contents + ul,
 .article ol,
 .article ul {
-  @apply list-decimal list-inside;
+  @apply list-disc list-inside text-gray-300;
+}
+.article #table-of-contents + ul {
+  @apply list-decimal list-inside text-gray-500;
 }
 .article blockquote > p {
   @apply rounded-md p-4 bg-gray-50;
