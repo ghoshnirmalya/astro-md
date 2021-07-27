@@ -4,7 +4,7 @@ title: "Getting started with Next.js and GraphCMS"
 category: "javascript"
 tags: ["react.js", "next.js", "cms"]
 description: "Learn how to get started with GraphCMS with Next.js."
-layout: "../../layouts/Main.astro"
+layout: "../../layouts/Article.astro"
 ---
 
 In this tutorial, we'll learn how we can create a Next.js project and integrate it with [GraphCMS](https://graphcms.com/).

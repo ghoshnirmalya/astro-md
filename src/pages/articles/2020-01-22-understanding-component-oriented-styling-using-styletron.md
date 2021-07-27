@@ -4,7 +4,7 @@ title: "Understanding Component-Oriented Styling using Styletron"
 category: "css"
 tags: ["react.js"]
 description: "Learn how to style your React components using Styletron."
-layout: "../../layouts/Main.astro"
+layout: "../../layouts/Article.astro"
 ---
 
 In this tutorial, we'll learn about the problems with styling [React](https://reactjs.org/) applications and how we can solve them using [Styletron](https://www.styletron.org/).

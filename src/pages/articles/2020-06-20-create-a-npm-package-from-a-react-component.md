@@ -4,7 +4,7 @@ title: "Create a Package from a React Component and Publish it to NPM"
 category: "javascript"
 tags: ["react.js"]
 description: "This tutorial will explain how you can create a package from a React component and publish it to NPM."
-layout: "../../layouts/Main.astro"
+layout: "../../layouts/Article.astro"
 ---
 
 In this tutorial, we'll learn how we can create a package from a React component. We'll also learn how to publish it to [NPM](https://www.npmjs.com/) so that other developers can use our package.

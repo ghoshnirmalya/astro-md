@@ -4,7 +4,7 @@ title: "How to use Next.js with Strapi and Apollo"
 category: "javascript"
 tags: ["react.js", "next.js", "cms"]
 description: "Learn how to use Next.js with Strapi and Apollo."
-layout: "../../layouts/Main.astro"
+layout: "../../layouts/Article.astro"
 ---
 
 In this tutorial, we'll learn how we can use Next.js with Strapi and Apollo.

@@ -4,7 +4,7 @@ title: "Integrating TailwindCSS with Next.js"
 category: "javascript"
 tags: ["react.js", "next.js", "tailwind"]
 description: "Learn how to use TailwindCSS with Next.js to build maintainable front-end applications."
-layout: "../../layouts/Main.astro"
+layout: "../../layouts/Article.astro"
 ---
 
 In this tutorial, we'll learn how to integrate [TailwindCSS](https://tailwindcss.com/) with [Next.js](https://nextjs.org/).

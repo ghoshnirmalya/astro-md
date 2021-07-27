@@ -4,7 +4,7 @@ title: "How to Authenticate your Next.js application using Open Source Headless 
 category: "javascript"
 tags: ["react.js"]
 description: "Learn how to authenticate a front-end application using Next.js and Strapi."
-layout: "../../layouts/Main.astro"
+layout: "../../layouts/Article.astro"
 ---
 
 In this tutorial, we'll learn about how to authenticate a front-end application using [Next.js](https://nextjs.org/) and [Strapi](https://strapi.io/).

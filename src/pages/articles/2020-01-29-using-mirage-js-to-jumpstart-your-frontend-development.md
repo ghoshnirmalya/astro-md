@@ -4,7 +4,7 @@ title: "Using Mirage.js to jumpstart your frontend development"
 category: "javascript"
 tags: ["api"]
 description: "Learn how to build front-end applications without any back-end APIs using Mirage."
-layout: "../../layouts/Main.astro"
+layout: "../../layouts/Article.astro"
 ---
 
 In this article, we'll learn about how to build a front-end application without back-end APIs using [Mirage](https://miragejs.com/).

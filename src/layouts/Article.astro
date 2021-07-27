@@ -8,19 +8,22 @@ const { content } = Astro.props;
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Example site to demonstrate how Astro works.">
 
-    <title>"content.title"</title>
+    <title>{content.title}</title>
 
     <link rel="icon"
           type="image/svg+xml"
           href="/favicon.svg">
     <link rel="stylesheet" href="/css/tailwind.css" type="text/css" />
+    <link rel="stylesheet" href="/css/article.css" type="text/css" />
   </head>
 
   <body class="bg-white">
     <Navbar />
     <div class="mx-auto p-4 max-w-2xl">
       <main class="space-y-8">
-        <slot />
+        <div class="article">
+          <slot />
+        </div>
       </main>
     </div>
   </body>

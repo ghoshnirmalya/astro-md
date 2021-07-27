@@ -4,7 +4,7 @@ title: "How to do authentication in Next.js using Strapi and NextAuth"
 category: "javascript"
 tags: ["react.js", "next.js", "cms"]
 description: "Learn how to build an authentication system in a Next.js application with Strapi and NextAuth."
-layout: "../../layouts/Main.astro"
+layout: "../../layouts/Article.astro"
 ---
 
 In this tutorial, we'll learn how we can build an authentication system in a
