@@ -2,7 +2,7 @@
 date: "2020-01-15"
 title: "Integrating TailwindCSS with Next.js"
 category: "javascript"
-tags: ["react.js", "next.js", "tailwind"]
+tags: ["react", "next", "tailwind"]
 description: "Learn how to use TailwindCSS with Next.js to build maintainable front-end applications."
 layout: "../../layouts/Article.astro"
 ---

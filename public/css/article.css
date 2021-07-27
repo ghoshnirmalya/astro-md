@@ -4,7 +4,7 @@
 .article p,
 .article ul,
 .article ol {
-  @apply text-gray-700 mb-2;
+  @apply text-gray-700 mb-4 leading-relaxed;
 }
 .article img {
   @apply rounded-sm;
@@ -196,7 +196,7 @@ pre[class*="language-"] {
   margin-top: 0;
 }
 .article a {
-  color: #0366d6;
+  @apply text-blue-600;
 }
 :not(pre) > code {
   color: #8037ff;

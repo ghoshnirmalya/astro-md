@@ -2,7 +2,7 @@
 date: "2020-01-22"
 title: "Understanding Component-Oriented Styling using Styletron"
 category: "css"
-tags: ["react.js"]
+tags: ["react"]
 description: "Learn how to style your React components using Styletron."
 layout: "../../layouts/Article.astro"
 ---

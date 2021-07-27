@@ -2,7 +2,7 @@
 date: "2020-03-30"
 title: "How to Authenticate your Next.js application using Open Source Headless CMS Strapi"
 category: "javascript"
-tags: ["react.js"]
+tags: ["react"]
 description: "Learn how to authenticate a front-end application using Next.js and Strapi."
 layout: "../../layouts/Article.astro"
 ---

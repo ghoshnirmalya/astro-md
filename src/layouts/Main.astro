@@ -1,14 +1,14 @@
 ---
 import Navbar from '../components/Navbar.astro';
 
-const { content } = Astro.props;
+const { title } = Astro.props;
 ---
 <html lang="en">
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Example site to demonstrate how Astro works.">
 
-    <title>"content.title"</title>
+    <title>{title}</title>
 
     <link rel="icon"
           type="image/svg+xml"

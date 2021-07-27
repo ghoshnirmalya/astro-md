@@ -2,14 +2,8 @@
 import Layout from "../layouts/Main.astro"
 
 const articles = Astro.fetchContent('./articles/*.md')
-const title = "Nirmalya Ghosh"
-const subTitle = "I'm a Developer, who likes designing writing and building Open Source stuffs."
 ---
-<Layout title={title}>
-  <div class="space-y-2 text-center p-12">
-    <h1 class="font-bold text-4xl">{title}</h1>
-    <h2 class="font-semibold text-sm">{subTitle}</h2>
-  </div>
+<Layout>
   {articles.map(article => {
     return (
       <a href={article.url} class="flex flex-col">

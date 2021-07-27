@@ -2,7 +2,7 @@
 date: "2020-10-06"
 title: "How to do authentication in Next.js using Strapi and NextAuth"
 category: "javascript"
-tags: ["react.js", "next.js", "cms"]
+tags: ["react", "next", "cms"]
 description: "Learn how to build an authentication system in a Next.js application with Strapi and NextAuth."
 layout: "../../layouts/Article.astro"
 ---
