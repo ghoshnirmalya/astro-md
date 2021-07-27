@@ -1,8 +1,6 @@
 ---
-// Component Imports
 import Navbar from '../components/Navbar.astro';
 
-// Component Script:
 const { content } = Astro.props;
 ---
 <html lang="en">
@@ -15,16 +13,15 @@ const { content } = Astro.props;
     <link rel="icon"
           type="image/svg+xml"
           href="/favicon.svg">
-    <link rel="stylesheet" href="/tailwind.css" type="text/css" />
-    <link rel="stylesheet" href="/prism.css" type="text/css" />
-    <link rel="stylesheet" href="/code.css" type="text/css" />
+    <link rel="stylesheet" href="/css/tailwind.css" type="text/css" />
+    <link rel="stylesheet" href="/css/code.css" type="text/css" />
   </head>
 
-  <body class="bg-gray-100">
+  <body class="bg-white">
     <Navbar />
     <div class="mx-auto p-4 max-w-2xl">
       <main class="space-y-8">
-        <div class="space-y-8">
+        <div class="article">
           <slot />
         </div>
       </main>
