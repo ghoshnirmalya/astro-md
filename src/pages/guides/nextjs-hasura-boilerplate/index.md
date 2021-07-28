@@ -5,6 +5,8 @@ tags: ["next"]
 layout: "../../../layouts/Article.astro"
 ---
 
+[![Logo](/images/content/nextjs-hasura-boilerplate/hasura-nextjs-boilerplate.png)](https://github.com/ghoshnirmalya/nextjs-hasura-boilerplate)
+
 As the name suggests, [**Hasura Next.js Boilerplate**](https://github.com/ghoshnirmalya/nextjs-hasura-boilerplate) is a boilerplate for building applications using Hasura and Next.js. This boilerplate will let you up and running with a Next.js front-end and Hasura back-end application easily.
 
 [Learn more](/guides/nextjs-hasura-boilerplate/02-motivation) about why this boilerplate was created or [check out how to create a real-time application](/guides/nextjs-hasura-boilerplate/04-getting-started).
@@ -88,7 +90,7 @@ git clone git@github.com:ghoshnirmalya/nextjs-hasura-boilerplate.git
 cd nextjs-hasura-boilerplate && yarn bootstrap
 ```
 
-3. **Create a Google OAuth Client from https://console.developers.google.com/apis/credentials/oauthclient and copy the credentials to `GOOGLE_CLIENT_ID` and `GOOGLE_CLIENT_SECRET` in your `.env` file inside the `frontend` directory.**
+3. **Create a Google OAuth Client from [https://console.developers.google.com/apis/credentials/oauthclient](https://console.developers.google.com/apis/credentials/oauthclient) and copy the credentials to `GOOGLE_CLIENT_ID` and `GOOGLE_CLIENT_SECRET` in your `.env` file inside the `frontend` directory.**
 
 4. **Start Docker and run both the applications by running the following command from the root of your project:**
 

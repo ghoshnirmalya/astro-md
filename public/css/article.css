@@ -4,12 +4,16 @@
 .article p,
 .article ul,
 .article ol {
-  @apply text-gray-700 mb-4 leading-relaxed;
+  @apply text-gray-700 mb-4 leading-relaxed break-words;
 }
 .article img {
   @apply rounded-sm;
 }
 .article ol > p,
+.article ul > p {
+  @apply mb-4;
+}
+
 .article li > p {
   @apply inline mb-4;
 }
