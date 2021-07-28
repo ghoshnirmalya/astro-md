@@ -11,10 +11,10 @@
 }
 .article ol,
 .article ul {
-  @apply list-disc list-inside text-gray-300;
+  @apply list-disc list-inside;
 }
 .article #table-of-contents + ul {
-  @apply list-decimal list-inside text-gray-500;
+  @apply list-decimal list-inside;
 }
 .article blockquote > p {
   @apply rounded-md p-4 bg-gray-50;
@@ -196,7 +196,7 @@ pre[class*="language-"] {
   margin-top: 0;
 }
 .article a {
-  @apply text-blue-600;
+  @apply text-blue-600 hover:text-blue-700;
 }
 :not(pre) > code {
   color: #8037ff;

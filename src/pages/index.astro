@@ -1,22 +1,44 @@
 ---
 import Layout from "../layouts/Main.astro"
+import projectsData from "/json/projects.json"
 
-const articles = Astro.fetchContent('./articles/*.md')
+const articles = Astro.fetchContent('./articles/*.md').slice(0,5)
+const projects = projectsData.slice(0,5)
+
 const title = "Nirmalya Ghosh"
-const subTitle = "I'm a Developer, who likes designing writing and building Open Source stuffs."
+const subTitle = `I'm a <span class="font-extrabold">Developer</span>, who likes designing writing and <span class="font-extrabold">building Open Source</span> stuffs.`
+console.log(projects)
 ---
 <Layout title={title}>
   <div class="space-y-2 text-center p-12">
     <h1 class="font-bold text-4xl">{title}</h1>
     <h2 class="font-semibold text-sm">{subTitle}</h2>
   </div>
-  {articles.map(article => {
-    return (
-      <a href={article.url} class="flex flex-col">
-        <h2 class="font-semibold text-lg text-blue-600">{article.title}</h2>
-        <p class="text-sm text-gray-670">{article.description}</p>
-      </a>
-    )
-  })}
+  <div class="space-y-2">
+    <h1 class="font-semibold text-lg">Latest articles</h1>
+    <div class="space-y-8">
+      {articles.map(article => {
+        return (
+          <a href={article.url} class="flex flex-col">
+            <h2 class="font-semibold text-md text-blue-600 hover:text-blue-700">{article.title}</h2>
+            <p class="text-sm text-gray-670">{article.description}</p>
+          </a>
+        )
+      })}
+    </div>
+  </div>
+  <div class="space-y-2">
+    <h1 class="font-semibold text-lg">Latest projects</h1>
+    <div class="space-y-8">
+      {projects.map(project => {
+        return (
+          <a href={project.url} class="flex flex-col">
+            <h2 class="font-semibold text-md text-blue-600 hover:text-blue-700">{project.title}</h2>
+            <p class="text-sm text-gray-670">{project.description}</p>
+          </a>
+        )
+      })}
+    </div>
+  </div>
 </Layout>
 

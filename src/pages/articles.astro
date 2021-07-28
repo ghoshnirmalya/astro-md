@@ -7,7 +7,7 @@ const articles = Astro.fetchContent('./articles/*.md')
   {articles.map(article => {
     return (
       <a href={article.url} class="flex flex-col">
-        <h2 class="font-semibold text-lg text-blue-600">{article.title}</h2>
+        <h2 class="font-semibold text-md text-blue-600 hover:text-blue-700">{article.title}</h2>
         <p class="text-sm text-gray-670">{article.description}</p>
       </a>
     )

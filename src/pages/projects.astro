@@ -1,0 +1,15 @@
+---
+import Layout from "../layouts/Main.astro"
+import projectsData from "/json/projects.json"
+---
+<Layout>
+  {projectsData.map(project => {
+    return (
+      <a href={project.url} class="flex flex-col">
+        <h2 class="font-semibold text-md text-blue-600 hover:text-blue-700">{project.title}</h2>
+        <p class="text-sm text-gray-670">{project.description}</p>
+      </a>
+    )
+  })}
+</Layout>
+
