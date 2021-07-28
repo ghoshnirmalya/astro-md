@@ -10,11 +10,11 @@ const subTitle = `I'm a <span class="font-extrabold">Developer</span>, who likes
 console.log(projects)
 ---
 <Layout title={title}>
-  <div class="space-y-2 text-center p-12">
+  <section class="space-y-2 text-center p-12">
     <h1 class="font-bold text-4xl">{title}</h1>
     <h2 class="font-semibold text-sm">{subTitle}</h2>
-  </div>
-  <div class="space-y-2">
+  </section>
+  <section class="space-y-2">
     <h1 class="font-semibold text-lg">Latest articles</h1>
     <div class="space-y-8">
       {articles.map(article => {
@@ -26,8 +26,8 @@ console.log(projects)
         )
       })}
     </div>
-  </div>
-  <div class="space-y-2">
+  </section>
+  <section class="space-y-2">
     <h1 class="font-semibold text-lg">Latest projects</h1>
     <div class="space-y-8">
       {projects.map(project => {
@@ -39,6 +39,6 @@ console.log(projects)
         )
       })}
     </div>
-  </div>
+  </section>
 </Layout>
 
