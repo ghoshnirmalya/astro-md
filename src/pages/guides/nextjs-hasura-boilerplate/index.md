@@ -9,7 +9,7 @@ layout: "../../../layouts/Article.astro"
 
 As the name suggests, [**Hasura Next.js Boilerplate**](https://github.com/ghoshnirmalya/nextjs-hasura-boilerplate) is a boilerplate for building applications using Hasura and Next.js. This boilerplate will let you up and running with a Next.js front-end and Hasura back-end application easily.
 
-[Learn more](/guides/nextjs-hasura-boilerplate/02-motivation) about why this boilerplate was created or [check out how to create a real-time application](/guides/nextjs-hasura-boilerplate/04-getting-started).
+[Learn more about why this boilerplate was created](/guides/nextjs-hasura-boilerplate/02-motivation) or [check out how to create a real-time application](/guides/nextjs-hasura-boilerplate/04-getting-started).
 
 ## Table of Contents
 

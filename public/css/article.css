@@ -4,7 +4,7 @@
 .article p,
 .article ul,
 .article ol {
-  @apply text-gray-700 mb-4 leading-relaxed break-words;
+  @apply text-gray-700 mb-4 leading-loose break-words;
 }
 .article img {
   @apply rounded-sm;
