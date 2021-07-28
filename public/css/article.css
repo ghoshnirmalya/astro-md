@@ -9,7 +9,13 @@
 .article img {
   @apply rounded-sm;
 }
-.article ol,
+.article ol > p,
+.article li > p {
+  @apply inline mb-4;
+}
+.article ol {
+  @apply list-decimal list-inside;
+}
 .article ul {
   @apply list-disc list-inside;
 }

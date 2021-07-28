@@ -1,0 +1,17 @@
+---
+import Layout from "../layouts/Main.astro"
+
+const guides = Astro.fetchContent('./guides/**/*.md')
+
+---
+<Layout>
+  {guides.map(guide => {
+    return (
+      <a href={guide.url} class="flex flex-col">
+        <h2 class="font-semibold text-md text-blue-600 hover:text-blue-700">{guide.title}</h2>
+        <p class="text-sm text-gray-670">{guide.description}</p>
+      </a>
+    )
+  })}
+</Layout>
+
