@@ -1,7 +1,7 @@
 ---
 date: "2020-10-06"
 title: "How to do authentication in Next.js using Strapi and NextAuth"
-category: "javascript"
+category: "Tutorial"
 tags: ["react", "next", "cms"]
 description: "Learn how to build an authentication system in a Next.js application with Strapi and NextAuth."
 layout: "../../layouts/Article.astro"
@@ -18,17 +18,7 @@ Next.js application using Strapi and NextAuth
 
 I've created a [boilerplate](https://github.com/ghoshnirmalya/nextjs-strapi-boilerplate) so that you can get up and running with [Strapi](http://strapi.io/), [Next.js](https://nextjs.org/) and [Apollo](https://www.apollographql.com/) quickly. Check out the project on [Github](https://github.com/ghoshnirmalya/nextjs-strapi-boilerplate).
 
-<a
-href="https://github.com/ghoshnirmalya/nextjs-strapi-boilerplate"
-target="\_blank"
-
-> <img
-
-    src="https://user-images.githubusercontent.com/6391763/90599044-ca070300-e211-11ea-8b8a-89354dd30bd5.png"
-    alt="Logo"
-
-/>
-</a>
+[![Logo](/images/content/nextjs-strapi-boilerplate/strapi-nextjs-boilerplate.png)](https://github.com/ghoshnirmalya/nextjs-strapi-boilerplate)
 
 [NextAuth](https://next-auth.js.org/) is a library for building authentication in a [Next.js](https://nextjs.org/) application. It's flexible, secure and easy to use.
 
@@ -160,15 +150,3 @@ We can get the details of the authenticated users from the [`getSession`](https:
 ## Conclusion
 
 In this tutorial, we understood how we can implement authentication in a Next.js application using Strapi and NextAuth. I've created a [boilerplate](https://github.com/ghoshnirmalya/nextjs-strapi-boilerplate) so that you can get up and running with Strapi, Next.js and Apollo quickly. Check out the project on [Github](https://github.com/ghoshnirmalya/nextjs-strapi-boilerplate). Documentation of this project is available [here](/guides/nextjs-strapi-boilerplate).
-
-<a
-href="https://github.com/ghoshnirmalya/nextjs-strapi-boilerplate"
-target="\_blank"
-
-> <img
-
-    src="https://user-images.githubusercontent.com/6391763/90599044-ca070300-e211-11ea-8b8a-89354dd30bd5.png"
-    alt="Logo"
-
-/>
-</a>

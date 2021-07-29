@@ -1,7 +1,7 @@
 ---
 date: "2020-08-20"
 title: "How to use Next.js with Strapi and Apollo"
-category: "javascript"
+category: "Tutorial"
 tags: ["react.js", "next.js", "cms"]
 description: "Learn how to use Next.js with Strapi and Apollo."
 layout: "../../layouts/Article.astro"

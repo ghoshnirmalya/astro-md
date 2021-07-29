@@ -1,7 +1,7 @@
 ---
 date: "2020-06-17"
 title: "How to Design and Create a Flexible and Theme-able Pagination Component with React and Theme UI"
-category: "javascript"
+category: "Tutorial"
 tags: ["react"]
 description: "This tutorial will explain all the things that is necessary to know how to build a custom pagination component with a good User Experience using React."
 layout: "../../layouts/Article.astro"

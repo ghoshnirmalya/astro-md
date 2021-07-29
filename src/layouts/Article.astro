@@ -25,10 +25,13 @@ const { content } = Astro.props;
       <article class="space-y-8">
         <div class="space-y-2 my-8">
           <h1 class="font-bold text-4xl leading-normal">{content.title}</h1>
-          <div class="space-x-2">
-            {content.tags?.map(tag => {
-              return <a href={`/tags/${tag}`} class="text-blue-600 text-sm">#{tag}</a>
-            })}
+          <div class="flex justify-between">
+            <a href={`/categories/${content.category}`} class="text-blue-600 text-sm">{content.category}</a>
+            <div class="space-x-2">
+              {content.tags?.map(tag => {
+                return <a href={`/tags/${tag}`} class="text-blue-600 text-sm">#{tag}</a>
+              })}
+            </div>
           </div>
         </div>
         <div class="article">

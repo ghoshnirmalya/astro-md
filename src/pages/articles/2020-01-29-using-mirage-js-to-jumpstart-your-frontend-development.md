@@ -1,7 +1,7 @@
 ---
 date: "2020-01-29"
 title: "Using Mirage.js to jumpstart your frontend development"
-category: "javascript"
+category: "Tutorial"
 tags: ["api"]
 description: "Learn how to build front-end applications without any back-end APIs using Mirage."
 layout: "../../layouts/Article.astro"

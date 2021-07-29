@@ -1,7 +1,7 @@
 ---
 date: "2020-07-12"
 title: "Getting started with Next.js and GraphCMS"
-category: "javascript"
+category: "Tutorial"
 tags: ["react", "next", "cms"]
 description: "Learn how to get started with GraphCMS with Next.js."
 layout: "../../layouts/Article.astro"

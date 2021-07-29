@@ -1,7 +1,7 @@
 ---
 date: "2020-01-08"
 title: "What is TailwindCSS and what problems does this new CSS framework solve for us"
-category: "css"
+category: "Article"
 tags: ["tailwind"]
 description: "Learn how to build components and design-systems using TailwindCSS."
 layout: "../../layouts/Article.astro"

@@ -1,7 +1,7 @@
 ---
 date: "2020-01-01"
 title: "How to Automate the Backend stuffs with Open Source Headless CMS Strapi and Docker"
-category: "docker"
+category: "Tutorial"
 tags: ["strapi", "cms"]
 description: "Learn how to get started with Strapi which is an Open Source Headless CMS using Docker."
 layout: "../../layouts/Article.astro"

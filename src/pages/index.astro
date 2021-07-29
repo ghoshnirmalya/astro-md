@@ -2,7 +2,7 @@
 import Layout from "../layouts/Main.astro"
 import projectsData from "/json/projects.json"
 
-const articles = Astro.fetchContent('./articles/*.md').slice(0,5)
+const articles = Astro.fetchContent('./articles/*.md').reverse().slice(0,5)
 const projects = projectsData.slice(0,5)
 
 const title = "Nirmalya Ghosh"

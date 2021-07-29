@@ -1,0 +1,35 @@
+---
+import Layout from "../layouts/Main.astro"
+import flattenDeep from "lodash/flattenDeep"
+
+export async function createCollection() {
+  const allArticles = Astro.fetchContent('./articles/*.md')
+
+  return {
+    route: `/categories/:category`,
+    paths() {
+      const allCategories = flattenDeep(allArticles.map((article) => article.category))
+
+      return allCategories.map((category) => ({params: {category}}));
+    },
+    async props({ params }) {
+      return {
+        articles: allArticles.filter((article) => article.category === params.category)
+      };
+    },
+  };
+}
+
+const {articles} = Astro.props;
+---
+<Layout>
+  {articles.map(article => {
+    return (
+      <a href={article.url} class="flex flex-col">
+        <h2 class="font-semibold text-lg text-blue-600">{article.title}</h2>
+        <p class="text-sm text-gray-670">{article.description}</p>
+      </a>
+    )
+  })}
+</Layout>
+

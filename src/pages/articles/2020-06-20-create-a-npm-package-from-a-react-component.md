@@ -1,7 +1,7 @@
 ---
 date: "2020-06-20"
 title: "Create a Package from a React Component and Publish it to NPM"
-category: "javascript"
+category: "Tutorial"
 tags: ["react.js"]
 description: "This tutorial will explain how you can create a package from a React component and publish it to NPM."
 layout: "../../layouts/Article.astro"

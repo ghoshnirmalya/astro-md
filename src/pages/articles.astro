@@ -1,7 +1,7 @@
 ---
 import Layout from "../layouts/Main.astro"
 
-const articles = Astro.fetchContent('./articles/*.md')
+const articles = Astro.fetchContent('./articles/*.md').reverse()
 ---
 <Layout>
   {articles.map(article => {
