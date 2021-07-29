@@ -1,4 +1,8 @@
 export default {
+  buildOptions: {
+    site: "https://astro-md.vercel.app",
+    sitemap: true,
+  },
   devOptions: {
     tailwindConfig: "./tailwind.config.js",
   },
