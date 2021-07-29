@@ -3,7 +3,7 @@ import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import OGTags from '../components/OGTags.astro';
 
-const { title="Nirmalya Ghosh" } = Astro.props;
+const { title="Nirmalya Ghosh",description="Portfolio of Nirmalya Ghosh" } = Astro.props;
 ---
 <!DOCTYPE html>
 <html lang="en">
@@ -13,7 +13,7 @@ const { title="Nirmalya Ghosh" } = Astro.props;
 
     <title>{title}</title>
 
-    <OGTags title={title} />
+    <OGTags title={title} description={description} />
 
     <link rel="icon"
           type="image/svg+xml"

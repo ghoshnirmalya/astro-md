@@ -1,15 +1,14 @@
 ---
-const { title="Nirmalya Ghosh" } = Astro.props;
-console.log(Astro)
+const { title="Nirmalya Ghosh", description="Portfolio of Nirmalya Ghosh" } = Astro.props;
 ---
 
 <meta property="og:title" content={title} />
 <meta property="og:url" content="https://nirmalyaghosh.com" />
-<meta property="og:type" content="blog" />
+<meta property="og:type" content="website" />
 <meta property="og:description" content="Portfolio of Nirmalya Ghosh" />
-<meta property="og:image" content={`https://og-tags.vercel.app/api/og-image?url=${Astro.site.href}`} />
+<meta property="og:image" content={`https://og-tags.vercel.app/api/og-image?title=${title}&description=${description}`} />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:title" content={title} />
 <meta name="twitter:description" content="Portfolio of Nirmalya Ghosh" />
 <meta name="twitter:url" content="https://nirmalyaghosh.com" />
-<meta name="twitter:image" content={`https://og-tags.vercel.app/api/og-image?url=${Astro.site.href}`} />
+<meta name="twitter:image" content={`https://og-tags.vercel.app/api/og-image?title=${title}&description=${description}`} />
